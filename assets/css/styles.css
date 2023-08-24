@@ -9,14 +9,45 @@
 :root {
   --white-color: #ffffff;
   --primary-color: #fca901;
+  --secondary-color: #c48506;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0.5rem 0;
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secodary {
+  background-color: var(--secondary-color);
+}
+
+.border-primary {
+  border: 1px solid var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem 0 !important;
+  font-weight: bold !important;
+}
+
+p {
+  margin-bottom: 1rem !important;
+}
+
+img {
+  width: 100%;
 }
 
 .container-md {
@@ -28,6 +59,88 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   max-width: 1440px;
 }
+
+/* starts navbar */
+
+.logo {
+  max-width: 220px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-items .menu {
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.right-items .menu:hover {
+  color: var(--primary-color);
+}
+
+li {
+  position: relative;
+}
+
+.navbar-items li a {
+  display: block;
+  color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 5px;
+  transition: 200ms all ease-in-out;
+}
+
+.navbar-items li a:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.navbar-items li > ul {
+  padding: 1rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 260px;
+  background-color: var(--white-color);
+  display: none;
+  box-shadow: 0 0 20px #cccccc;
+}
+
+.navbar-items li:hover > ul {
+  display: block;
+}
+
+.navbar-items li ul a {
+  padding: 1rem;
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-items {
+    display: none;
+  }
+}
+
+/* ends navbar */
 
 .header-section {
   margin-bottom: 2rem;
@@ -41,3 +154,34 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--white-color);
   background-color: var(--primary-color);
 }
+
+/* starts slider */
+
+.slider-container {
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ends slider */
+
+/* stats footer */
+
+.white-black {
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+}
+
+/* ends footer */
