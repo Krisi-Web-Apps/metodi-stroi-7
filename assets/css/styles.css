@@ -122,6 +122,7 @@ li {
   background-color: var(--white-color);
   display: none;
   box-shadow: 0 0 20px #cccccc;
+  z-index: 100;
 }
 
 .navbar-items li:hover > ul {

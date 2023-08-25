@@ -1,46 +1,12 @@
-<?php require "inc/header.php" ?>
-<?php require "inc/primary-navbar.php" ?>
+<?php
+$about_section_header = "Изграждане и ремонт на покриви в София и цялата страна!";
+?>
+<?php require "inc/header/header.php" ?>
+<?php require "inc/header/primary-navbar.php" ?>
 <?php require "inc/slider.php" ?>
 
 <main class="home">
-  <div class="container-lg header-section grid md:grid-cols-2">
-    <div class="px-4 max-sm:order-2">
-      <h1 class="text-3xl">Изграждане и ремонт на покриви в София и цялата страна!</h1>
-      <p class="header-slogan">От Фирма Дари Мастер Груп</p>
-
-      <p>Ремонт на покриви, изграждане на нов покрив, хидроизолация и алпинистки услуги са основните дейности на фирма
-        „Дари
-        Мастер Груп“, която е с дългогодишен опит и работи в София и цялата страна.</p>
-      <p>Екипът и се състои от опитни майстори, които повече от 20 години извършват първокласни услуги в сферата на
-        изграждане и ремонт на покриви. Качествена изработка на изгодни цени с висококачествени материали.</p>
-      <ul class="flex flex flex-col gap-10">
-        <li class="flex">
-          <i class="fa-solid fa-check text-4xl text-primary"></i>
-          <div class="pl-4">
-            <p>Ремонт на покриви и хидроизолация</p>
-            <p>
-              Цялостен или частичен ремонт на покриви с керемиди, битумни керемиди, метални керемиди. Хидроизолация -
-              полагане на нова или отстраняване на течове с гарантирана дълготрайност.</p>
-          </div>
-        </li>
-        <li class="flex">
-          <i class="fa-solid fa-check text-4xl text-primary"></i>
-          <div class="pl-4">
-            <p>Изграждане на нов покрив</p>
-            <p>Изграждане на нова покривна конструкция, навеси и беседки с качествени материали и всичко необходимо.</p>
-          </div>
-        </li>
-        <li class="flex">
-          <i class="fa-solid fa-check text-4xl text-primary"></i>
-          <div class="pl-4">
-            <p>Алпинистки услуги</p>
-            <p>Ремонти на високи и труднодостъпни места, където единствената възможност е използването на въже.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <img src="https://pokrivi-masters.com/images/pmasters/roofer_3.webp" class="max-sm:order-1" alt="">
-  </div>
+  <?php require "inc/about-section.php" ?>
 
   <div class="container-lg">
     <ul class="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
@@ -62,62 +28,16 @@
     </ul>
   </div>
 
-  <div class="text-white bg-gray-900 my-10">
-    <div class="container-md">
-      <ul class="grid sm:grid-cols-2 md:grid-cols-4 py-10 px-4 md:py-20">
-        <li class="text-center flex items-center">
-          <i class="fa-solid fa-house text-4xl text-primary w-[40px]"></i>
-          <div class="ml-5 text-left">
-            <h2 class="text-4xl">250</h2>
-            <p>обекта</p>
-          </div>
-        </li>
-        <li class="text-center flex items-center">
-          <i class="fa-solid fa-users text-4xl text-primary w-[40px]"></i>
-          <div class="ml-5 text-left">
-            <h2 class="text-4xl">15</h2>
-            <p>майстора</p>
-          </div>
-        </li>
-        <li class="text-center flex items-center">
-          <i class="fa-solid fa-wrench text-4xl text-primary w-[40px]"></i>
-          <div class="ml-5 text-left">
-            <h2 class="text-4xl">16</h2>
-            <p>вида услуги</p>
-          </div>
-        </li>
-        <li class="text-center flex items-center">
-          <i class="fa-solid fa-star text-4xl text-primary w-[40px]"></i>
-          <div class="ml-5 text-left">
-            <h2 class="text-4xl">20</h2>
-            <p>години опит</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <?php require "inc/sections/in-numbers.php"; ?>
 
-  <div class="container-md">
-    <h2 class="text-center text-2xl">НАШИ ПАРТНЬОРИ</h2>
-    <p class="header-slogan w-fit mx-auto">Работим И Се Развиваме Заедно!</p>
-    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-10 mt-10">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_bramac_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_mladost_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_izomax_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_mladost_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_novagalss_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_novagalss_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_novagalss_269.jpg" alt="">
-      <img src="https://pokrivi-masters.com/images/pmasters/partners/logo_novagalss_269.jpg" alt="">
-    </div>
-  </div>
+  <?php require "inc/sections/our-partners.php"; ?>
 
   <div class="text-white text-center bg-gray-900 py-20">
     <h2 class="text-center">НАШИТЕ УСЛУГИ</h2>
     <p class="header-slogan w-fit mx-auto">Всичко За Вашия Покрив</p>
   </div>
 
-  <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10">
     <li class="p-5 text-center">
       <i class="fa-solid fa-house text-6xl text-primary"></i>
       <h2 class="text-2xl">Ремонт на покриви</h2>
@@ -260,5 +180,5 @@
 
 </main>
 
-<?php require "inc/footer-sections.php" ?>
+<?php require "inc/sections/footer.php" ?>
 <?php require "inc/footer.php" ?>

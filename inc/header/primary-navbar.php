@@ -3,15 +3,17 @@
     <div class="container-md">
       <div class="navbar-container">
         <div class="logo">
-          <img src="/assets/logo.png" alt="<?= WEBSITE_TITLE ?>">
+          <a href="/">
+            <img src="/assets/logo.png" alt="<?= WEBSITE_TITLE ?>">
+          </a>
         </div>
         <div class="right-items">
           <ul class="navbar-items">
             <li>
-              <a href="#">Начало</a>
+              <a href="/">Начало</a>
             </li>
             <li>
-              <a href="#">За нас</a>
+              <a href="/za-nas">За нас</a>
             </li>
             <li>
               <a href="#">Услуги</a>
