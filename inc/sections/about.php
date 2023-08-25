@@ -1,4 +1,4 @@
-<div class="container-lg header-section grid md:grid-cols-2">
+<div class="container-lg header-section grid md:grid-cols-2 mt-20">
   <div class="px-4 max-sm:order-2">
     <h1 class="text-3xl"><?= $about_section_header ?></h1>
     <p class="header-slogan bg-primary w-fit rounded">От Фирма Дари Мастер Груп</p>
@@ -34,5 +34,5 @@
       </li>
     </ul>
   </div>
-  <img src="https://pokrivi-masters.com/images/pmasters/roofer_3.webp" class="max-sm:order-1" alt="">
+  <img src="/assets/services/roof_repairs-2.jpg" class="max-sm:order-1" alt="">
 </div>

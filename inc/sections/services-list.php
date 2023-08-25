@@ -1,7 +1,7 @@
 <section>
   <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-2 p-4">
     <li class="text-center">
-      <img src="https://pokrivi-masters.com/images/pmasters/remont_pokriv.jpg" alt="">
+      <img src="/assets/services/roof_repairs.jpeg" alt="Ремонт на покриви">
       <h2 class="text-xl">Ремонт на покриви</h2>
       <p>
         Екип с дългогодишен опит в Ремонтирането на покриви, високо качество и коректност. Висококачествени материали и
@@ -12,7 +12,7 @@
       </div>
     </li>
     <li class="text-center bg-gray-200 p-4">
-      <img src="https://pokrivi-masters.com/images/pmasters/remont_pokriv.jpg" alt="">
+      <img src="assets/services/nov_pokriv.webp" alt="Изграждане на нов покрив">
       <h2 class="text-xl">Изграждане на нов покрив</h2>
       <p>
         Изграждане на дървена конструкция от качествен дървен материал. Поставяне на керемиди, битумни и метални
@@ -23,7 +23,7 @@
       </div>
     </li>
     <li class="text-center p-4">
-      <img src="https://pokrivi-masters.com/images/pmasters/remont_pokriv.jpg" alt="">
+      <img src="/assets/services/waterproofing.webp" alt="Хидроизолация">
       <h2 class="text-xl">Хидроизолация</h2>
       <p>
         Всички видове хидроизолация за Вашия покрив според неговите особености. Висококачествени материали с гарантиран
@@ -34,7 +34,7 @@
       </div>
     </li>
     <li class="text-center bg-gray-200 p-4">
-      <img src="https://pokrivi-masters.com/images/pmasters/remont_pokriv.jpg" alt="">
+      <img src="/assets/services/tinsmith_services.webp" alt="Алпинистки услуги">
       <h2 class="text-xl">Алпинистки услуги</h2>
       <p>
         Екип от опитни алпинисти извършващи строително-ремонтни дейности по алпийски способ. Ремонти на високи и трудно

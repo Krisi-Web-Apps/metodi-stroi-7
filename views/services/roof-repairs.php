@@ -2,8 +2,10 @@
 $page_title = "Ремонт на покриви";
 ?>
 <?php require "inc/header.php" ?>
-<?php require "inc/navbars/top-navbar.php" ?>
-<?php require "inc/navbars/primary-navbar.php" ?>
+<header>
+  <?php require "inc/navbars/top-navbar.php" ?>
+  <?php require "inc/navbars/primary-navbar.php" ?>
+</header>
 
 <main>
   <?php require "inc/sections/secondary-top-header.php" ?>
@@ -38,7 +40,7 @@ $page_title = "Ремонт на покриви";
             ви предложат конкретни варианти за изпълнение.
           </p>
           <p><strong>Съвети</strong> при предприемане ремонт на покрива:</p>
-          <ul>
+          <ul class="grid gap-4 mb-4 pl-10">
             <li>
               Добре е да се избират <strong>качествени материали</strong>. Изборът на евтин материал впоследствие може да
               доведе до нови

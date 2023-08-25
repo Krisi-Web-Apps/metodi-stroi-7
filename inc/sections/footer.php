@@ -20,16 +20,16 @@
           <h2 class="text-2xl pb-4">Услуги</h2>
           <ul class="flex flex-col gap-4">
             <li>
-              <a href="/">Ремонт на покриви</a>
+              <a href="/uslugi/remont-pokrivi">Ремонт на покриви</a>
             </li>
             <li>
-              <a href="/">Изграждане на нов покрив</a>
+              <a href="/uslugi/nov-pokriv">Изграждане на нов покрив</a>
             </li>
             <li>
-              <a href="/">Хидроизолация</a>
+              <a href="/uslugi/hydroizolacia">Хидроизолация</a>
             </li>
             <li>
-              <a href="/">Алпиниски услуги</a>
+              <a href="/uslugi/alpinistki-uslugi">Алпиниски услуги</a>
             </li>
           </ul>
           <li>
@@ -39,11 +39,11 @@
               <li>Работим в цялата страна.</li>
               <li>
                 <span>Телефон:</span>
-                <a href="tel:0899076789">0899076789</a>
+                <a class="text-primary" href="tel:0899076789">0899076789</a>
               </li>
               <li>
                 <span>Имейл:</span>
-                <a href="tel:metodistroi6789@gmail.com">metodistroi6789@gmail.com</a>
+                <a class="text-primary" href="mailto:metodistroi6789@gmail.com">metodistroi6789@gmail.com</a>
               </li>
             </ul>
           </li>

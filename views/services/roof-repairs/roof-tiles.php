@@ -2,8 +2,10 @@
 $page_title = "Ремонт на покриви с керемиди";
 ?>
 <?php require "inc/header.php" ?>
-<?php require "inc/navbars/top-navbar.php" ?>
-<?php require "inc/navbars/primary-navbar.php" ?>
+<header>
+  <?php require "inc/navbars/top-navbar.php" ?>
+  <?php require "inc/navbars/primary-navbar.php" ?>
+</header>
 
 <main>
   <?php require "inc/sections/secondary-top-header.php" ?>
@@ -15,7 +17,7 @@ $page_title = "Ремонт на покриви с керемиди";
 
   <section class="mt-20">
     <div class="container-lg">
-      <div class="grid grid-cols-2 gap-10">
+      <div class="grid md:grid-cols-2 gap-10 max-sm:px-4">
         <img src="https://pokrivi-masters.com/images/pmasters/remont-pokriv-keremidi-800.jpg" alt="">
         <div>
           <h2 class="text-xl">НАДЕЖДНОСТ И ДЪЛГОТРАЙНОСТ</h2>

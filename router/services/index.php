@@ -12,4 +12,12 @@ $router->addRoute("/uslugi/remont-pokrivi", function () {
   view("services/roof-repairs");
 });
 
+$router->addRoute("/uslugi/hydroizolacia", function () {
+  view("services/waterproofing");
+});
+
+$router->addRoute("/uslugi/alpinistki-uslugi", function () {
+  view("services/mountaineering-services");
+});
+
 require "roof-repairs/index.php";

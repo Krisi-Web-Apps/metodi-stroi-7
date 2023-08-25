@@ -2,8 +2,10 @@
 $page_title = "Ремонт на покрив с битумни керемиди";
 ?>
 <?php require "inc/header.php" ?>
-<?php require "inc/navbars/top-navbar.php" ?>
-<?php require "inc/navbars/primary-navbar.php" ?>
+<header>
+  <?php require "inc/navbars/top-navbar.php" ?>
+  <?php require "inc/navbars/primary-navbar.php" ?>
+</header>
 
 <main>
   <?php require "inc/sections/secondary-top-header.php" ?>
