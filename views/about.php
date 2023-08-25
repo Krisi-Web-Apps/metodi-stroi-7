@@ -13,6 +13,8 @@ $about_section_header = WEBSITE_TITLE;
 
   <?php require "inc/sections/small-contents/our-partners.php"; ?>
 
+  <?php require "inc/sections/big-contents/reviews.php" ?>
+
   <?php require "inc/sections/small-contents/contacts-bar.php" ?>
 
 </main>

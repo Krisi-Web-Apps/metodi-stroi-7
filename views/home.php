@@ -162,6 +162,8 @@ $about_section_header = "Изграждане и ремонт на покрив�
     </ul>
   </div>
 
+  <?php require "inc/sections/big-contents/reviews.php" ?>
+
   <?php require "inc/sections/small-contents/contacts-bar.php" ?>
 
 </main>

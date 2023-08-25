@@ -1,4 +1,4 @@
-<section class="text-white bg-slate-900 py-10 text-center">
+<section class="text-white bg-slate-900 py-10 px-4 text-center">
   <div class="text-xl mb-2 max-w-[800px] mx-auto">
     Имате нужда от ремонт на покрива и не знаете към кого да се обърнете?
     <strong>

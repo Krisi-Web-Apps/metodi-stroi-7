@@ -11,3 +11,5 @@ $router->addRoute("/uslugi/nov-pokriv", function () {
 $router->addRoute("/uslugi/remont-pokrivi", function () {
   view("services/roof-repairs");
 });
+
+require "roof-repairs/index.php";
