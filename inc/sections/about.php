@@ -1,7 +1,7 @@
 <div class="container-lg header-section grid md:grid-cols-2">
   <div class="px-4 max-sm:order-2">
     <h1 class="text-3xl"><?= $about_section_header ?></h1>
-    <p class="header-slogan">От Фирма Дари Мастер Груп</p>
+    <p class="header-slogan bg-primary w-fit rounded">От Фирма Дари Мастер Груп</p>
 
     <p>Ремонт на покриви, изграждане на нов покрив, хидроизолация и алпинистки услуги са основните дейности на фирма
       „Дари

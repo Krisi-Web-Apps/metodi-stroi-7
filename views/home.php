@@ -1,12 +1,13 @@
 <?php
 $about_section_header = "Изграждане и ремонт на покриви в София и цялата страна!";
 ?>
-<?php require "inc/header/header.php" ?>
-<?php require "inc/header/primary-navbar.php" ?>
+<?php require "inc/header.php" ?>
+<?php require "inc/navbars/top-navbar.php" ?>
+<?php require "inc/navbars/primary-navbar.php" ?>
 <?php require "inc/slider.php" ?>
 
 <main class="home">
-  <?php require "inc/about-section.php" ?>
+  <?php require "inc/sections/about.php" ?>
 
   <div class="container-lg">
     <ul class="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
@@ -28,13 +29,13 @@ $about_section_header = "Изграждане и ремонт на покрив�
     </ul>
   </div>
 
-  <?php require "inc/sections/in-numbers.php"; ?>
+  <?php require "inc/sections/small-contents/in-numbers.php"; ?>
 
-  <?php require "inc/sections/our-partners.php"; ?>
+  <?php require "inc/sections/small-contents/our-partners.php"; ?>
 
   <div class="text-white text-center bg-gray-900 py-20">
-    <h2 class="text-center">НАШИТЕ УСЛУГИ</h2>
-    <p class="header-slogan w-fit mx-auto">Всичко За Вашия Покрив</p>
+    <h2 class="text-center text-4xl">НАШИТЕ УСЛУГИ</h2>
+    <div class="header-slogan mx-auto bg-primary w-fit rounded">Всичко За Вашия Покрив</div>
   </div>
 
   <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10">
@@ -70,7 +71,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
 
   <div class="mt-10 bg-blue-100 pt-20">
     <h2 class="text-center text-4xl">НАШИ ПРОЕКТИ</h2>
-    <p class="header-slogan w-fit mx-auto">Изпълнение Качествено И В Срок</p>
+    <div class="header-slogan mx-auto bg-primary w-fit rounded">Изпълнение Качествено И В Срок</div>
     <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-10 px-4">
       <img src="https://pokrivi-masters.com/images/pmasters/hydroizolacia.jpg" alt="">
       <img src="https://pokrivi-masters.com/images/pmasters/hydroizolacia.jpg" alt="">
@@ -88,9 +89,9 @@ $about_section_header = "Изграждане и ремонт на покрив�
 
   <div class="bg-blue-100 py-20 px-4">
     <h2 class="text-center text-3xl">НАШИТЕ ЦЕНИ</h2>
-    <p class="header-slogan w-fit mx-auto">Предлагаме Най-Добрите Цени За Нашите Клиенти</p>
+    <div class="header-slogan mx-auto bg-primary w-fit rounded">Предлагаме Най-Добрите Цени За Нашите Клиенти</div>
     <ul class="container-lg grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
-      <li class="border-primary text-center pt-10">
+      <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">РЕМОНТ НА ПОКРИВИ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
         <p><span class="text-4xl text-primary">15</span> лв./кв.м.</p>
@@ -107,7 +108,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
           <a href="/contacts" class="py-3 px-4 text-white bg-primary inline-block">За връзка с нас</a>
         </div>
       </li>
-      <li class="border-primary text-center pt-10">
+      <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">НОВ ПОКРИВ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
         <p><span class="text-4xl text-primary">60</span> лв./кв.м.</p>
@@ -124,7 +125,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
           <a href="/contacts" class="py-3 px-4 text-white bg-primary inline-block">За връзка с нас</a>
         </div>
       </li>
-      <li class="border-primary text-center pt-10">
+      <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">ХИДРОИЗОЛАЦИЯ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
         <p><span class="text-4xl text-primary">14</span> лв./кв.м.</p>
@@ -141,7 +142,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
           <a href="/contacts" class="py-3 px-4 text-white bg-primary inline-block">За връзка с нас</a>
         </div>
       </li>
-      <li class="border-primary text-center pt-10">
+      <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">АЛПИНИСТКИ УСЛУГИ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
         <p>Цени по <span class="text-4xl text-primary">ДОГ.</span></p>
@@ -161,22 +162,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
     </ul>
   </div>
 
-  <div class="container-lg">
-    <ul class="grid sm:grid-cols-2 md:grid-cols-3">
-      <li class="text-center py-20">
-        <div class="text-2xl font-bold">Адрес:</div>
-        <a class="text-xl text-primary">гр. София</a>
-      </li>
-      <li class="text-center py-20">
-        <div class="text-2xl font-bold">Имейл:</div>
-        <a class="text-xl text-primary" href="mailto:metodistroi6789@gmail.com">metodistroi6789@gmail.com</a>
-      </li>
-      <li class="text-center py-20">
-        <div class="text-2xl font-bold">Телефон:</div>
-        <a class="text-xl text-primary" href="tel:0899076789">0899076789</a>
-      </li>
-    </ul>
-  </div>
+  <?php require "inc/sections/small-contents/contacts-bar.php" ?>
 
 </main>
 
