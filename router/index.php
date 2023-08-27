@@ -26,6 +26,10 @@ $router->addRoute("/ceni", function () {
   view("prices");
 });
 
+$router->addRoute("/dovolni-klienti", function () {
+  view("dovolni-klienti");
+});
+
 require "services/index.php";
 
 $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

@@ -101,7 +101,7 @@ $page_title = "Хидроизолация";
 
   <div class="mt-20" />
 
-  <?php require "inc/sections/big-contents/services-list-additional.php"; ?>
+  <?php require "inc/sections/services-list.php"; ?>
   <?php require "inc/sections/small-contents/contacts-info-bar.php" ?>
   <?php require "inc/sections/small-contents/contacts-bar.php" ?>
 

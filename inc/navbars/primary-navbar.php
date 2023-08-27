@@ -85,16 +85,16 @@
                   href="/uslugi/nov-pokriv">Изграждане на нов покрив</a>
               </li>
               <li>
-                <a class="text-primary hover:bg-primary" href="/uslugi/hydroizolacia">Хидроизолация</a>
+                <a class="text-primary hover:bg-primary <?= url_match("/uslugi/hydroizolacia") ? "text-white bg-primary" : null ?>" href="/uslugi/hydroizolacia">Хидроизолация</a>
               </li>
               <li>
-                <a class="text-primary hover:bg-primary" href="/uslugi/alpinistki-uslugi">Алпинистки услуги</a>
+                <a class="text-primary hover:bg-primary <?= url_match("/uslugi/alpinistki-uslugi") ? "text-white bg-primary" : null ?>" href="/uslugi/alpinistki-uslugi">Алпинистки услуги</a>
               </li>
               <li>
-                <a class="text-primary hover:bg-primary" href="#">Груб строеж</a>
+                <a class="text-primary hover:bg-primary <?= url_match("/uslugi/grub-stroej") ? "text-white bg-primary" : null ?>" href="/uslugi/grub-stroej">Груб строеж</a>
               </li>
               <li>
-                <a class="text-primary hover:bg-primary" href="#">Вътрешни ремонти</a>
+                <a class="text-primary hover:bg-primary <?= url_match("/uslugi/vatreshi-remonti") ? "text-white bg-primary" : null ?>" href="/uslugi/vatreshi-remonti">Вътрешни ремонти</a>
               </li>
             </ul>
           </li>
@@ -106,6 +106,9 @@
           </li>
           <li>
             <a class="text-primary hover:bg-primary <?= url_match("/video") ? "text-white bg-primary" : null ?>" href="/video">Видео</a>
+          </li>
+          <li>
+            <a class="text-primary hover:bg-primary <?= url_match("/dovolni-klienti") ? "text-white bg-primary" : null ?>" href="/dovolni-klienti">Доволни клиенти</a>
           </li>
           <li>
             <a class="text-primary hover:bg-primary <?= url_match("/contacts") ? "text-white bg-primary" : null ?>" href="/contacts">Контакти</a>

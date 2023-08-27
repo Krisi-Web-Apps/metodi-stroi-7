@@ -7,6 +7,11 @@ $page_title = "Контакти";
 
 <main class="home">
   <?php require "inc/sections/secondary-top-header.php" ?>
+
+  <section class="mt-10">
+    <h2 class="text-4xl text-center">КОНТАКТИ</h2>
+    <div class="mt-4 header-slogan bg-primary mx-auto w-fit">Изпратете Запитване</div>
+  </section>
   
   <?php require "inc/sections/small-contents/contacts-bar.php" ?>
 

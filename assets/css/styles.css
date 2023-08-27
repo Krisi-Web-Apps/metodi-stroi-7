@@ -186,9 +186,7 @@ li {
 }
 
 .section {
-  background-color: #f1f1f1;
   border: 1px solid #ddd;
-  padding: 10px;
   margin-bottom: 5px;
 }
 
@@ -197,10 +195,14 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fca901;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .section-content {
   display: none;
+  padding: 0 10px;
 }
 
 .section.active .section-content {

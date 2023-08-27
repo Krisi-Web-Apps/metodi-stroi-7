@@ -20,4 +20,12 @@ $router->addRoute("/uslugi/alpinistki-uslugi", function () {
   view("services/mountaineering-services");
 });
 
+$router->addRoute("/uslugi/grub-stroej", function () {
+  view("services/grub-stroej");
+});
+
+$router->addRoute("/uslugi/vatreshi-remonti", function () {
+  view("services/vatreshi-remonti");
+});
+
 require "roof-repairs/index.php";

@@ -1,11 +1,14 @@
 <div class="container-lg header-section grid md:grid-cols-2 mt-20">
   <div class="px-4 max-sm:order-2">
-    <h1 class="text-3xl"><?= $about_section_header ?></h1>
-    <p class="header-slogan bg-primary w-fit rounded">От Фирма Дари Мастер Груп</p>
+    <h1 class="text-3xl">
+      <?= $about_section_header ?>
+    </h1>
+    <p class="header-slogan bg-primary w-fit rounded">От Фирма <strong><?= WEBSITE_TITLE ?></strong></p>
 
     <p>Ремонт на покриви, изграждане на нов покрив, хидроизолация и алпинистки услуги са основните дейности на фирма
-      „Дари
-      Мастер Груп“, която е с дългогодишен опит и работи в София и цялата страна.</p>
+      <strong>
+        <?= WEBSITE_TITLE ?>
+      </strong>, която е с дългогодишен опит и работи в София и цялата страна.</p>
     <p>Екипът и се състои от опитни майстори, които повече от 20 години извършват първокласни услуги в сферата на
       изграждане и ремонт на покриви. Качествена изработка на изгодни цени с висококачествени материали.</p>
     <ul class="flex flex-col gap-10">
@@ -34,5 +37,5 @@
       </li>
     </ul>
   </div>
-  <img src="/assets/services/roof_repairs-2.jpg" class="max-sm:order-1" alt="">
+  <img src="/assets/services/projects-pokrivi-5.jpg" class="max-sm:order-1" alt="">
 </div>

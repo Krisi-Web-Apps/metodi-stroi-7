@@ -39,7 +39,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 15 години</div>
                 </div>
-                <span>от 58.00 до 72.00 лв./м²</span>
+                <span>от 68.00 до 90.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -82,7 +82,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 15 години</div>
                 </div>
-                <span>от 14.00 до 22.00 лв./м²</span>
+                <span>от 22.00 до 29.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -113,7 +113,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 15 години</div>
                 </div>
-                <span>от 14.00 до 22.00 лв./м²</span>
+                <span>от 55.00 до 80.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -165,7 +165,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 7 години</div>
                 </div>
-                <span>от 14.00 до 22.00 лв./м²</span>
+                <span>от 18.00 до 22.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -207,14 +207,14 @@ $page_title = "Цени";
                 <div>
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                 </div>
-                <span>от 60.00 до 70.00 лв./м²</span>
+                <span>от 75.00 до 98.00 лв./м²</span>
               </li>
               <li class="flex justify-between">
                 <div>
                   <span>Монтаж на сачак и лакиране с лак за дърво</span>
                   <span class="text-primary font-bold">С включени труд и материали: </span>
                 </div>
-                <span>от 50.00 до 60.00 лв./м²</span>
+                <span>от 65.00 до 80.00 лв./м²</span>
               </li>
               <li class="flex justify-between">
                 <div>
@@ -298,7 +298,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 15 години</div>
                 </div>
-                <span>от 8.00 до 12.00 лв./м²</span>
+                <span>от 19.80 до 30.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -330,7 +330,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 7 години</div>
                 </div>
-                <span>от 45.00 до 58.00 лв./м²</span>
+                <span>от 40.00 до 78.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -362,7 +362,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 7 години</div>
                 </div>
-                <span>от 45.00 до 58.00 лв./м²</span>
+                <span>от 40.00 до 78.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -381,14 +381,14 @@ $page_title = "Цени";
                   <span>1. Хоризонтални улуци - обикновени</span>
                   <span></span>
                 </div>
-                <span>от 13.00 до 18.00 лв./м</span>
+                <span>от 17.50 до 22.00 лв./м</span>
               </li>
               <li class="flex justify-between">
                 <div>
                   <span>2. Вертикални улуци - обикновени</span>
                   <span></span>
                 </div>
-                <span>от 12.00 до 22.00 лв./м</span>
+                <span>от 17.50 до 22.00 лв./м</span>
               </li>
               <li class="flex justify-between">
                 <span>3. Скоби - влизат в цената на улуците</span>
@@ -447,7 +447,7 @@ $page_title = "Цени";
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                   <div class="text-primary font-bold">Гаранция: 25 години</div>
                 </div>
-                <span>от 58.00 до 68.00 лв./м²</span>
+                <span>от 75.00 до 85.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -477,7 +477,7 @@ $page_title = "Цени";
                 <div>
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                 </div>
-                <span>от 35.00 до 40.00 лв./м</span>
+                <span>от 35.00 до 45.00 лв./м</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -499,7 +499,7 @@ $page_title = "Цени";
                 <div>
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                 </div>
-                <span>от 60.00 до 70.00 лв./м²</span>
+                <span>от 72.00 до 85.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -529,7 +529,7 @@ $page_title = "Цени";
                 <div>
                   <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
                 </div>
-                <span>от 62.00 до 70.00 лв./м</span>
+                <span>от 82.00 до 95.00 лв./м</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -590,15 +590,15 @@ $page_title = "Цени";
               <li class="flex justify-between">
                 <div></div>
                 <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали: </div>
-                <span>от 12.00 до 18.00 лв./м</span>
+                <span>от 17.50 до 25.00 лв./м</span>
               </li>
               <li class="flex justify-between">
                 <span>4. Монтаж на водозборно Казанче</span>
-                <span>от 25.00 до 30.00 лв./бр.</span>
+                <span>от 45.00 до 50.00 лв./бр.</span>
               </li>
               <li class="flex justify-between">
                 <span>5. Монтаж на Водосточни тръби поцинковани</span>
-                <span>от 18.00 до 22.00 лв./м</span>
+                <span>от 17.00 до 25.00 лв./м</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -614,11 +614,11 @@ $page_title = "Цени";
             <ol class="flex flex-col gap-4">
               <li class="flex justify-between">
                 <span>1. Монтаж на улук Бешевен</span>
-                <span>от 18.00 до 25.00 лв./м</span>
+                <span>от 22.00 до 30.00 лв./м</span>
               </li>
               <li class="flex justify-between">
                 <span>2. Монтаж на водозборно Казанче</span>
-                <span>от 35.00 до 40.00 лв./бр.</span>
+                <span>от 45.00 до 50.00 лв./бр.</span>
               </li>
               <li class="flex justify-between">
                 <span>3. Монтаж на водосточни тръби</span>
@@ -626,7 +626,7 @@ $page_title = "Цени";
               </li>
               <li class="flex justify-between">
                 <span>4. Монтаж със Алпинист</span>
-                <span>от 25.00 до 31.00 лв./м</span>
+                <span>от 25.00 до 40.00 лв./м</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -704,7 +704,7 @@ $page_title = "Цени";
               <li class="flex justify-between">
                 <span></span>
                 <div class="text-primary font-bold">ОБЩА ЦЕНА с включени труд и материали:</div>
-                <span>от 65.00 до 80.00 лв./м²</span>
+                <span>от 185.00 до 285.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>
@@ -730,6 +730,23 @@ $page_title = "Цени";
                 <span></span>
                 <div class="text-primary font-bold">ЦЕНА:</div>
                 <span>По договаряне</span>
+              </li>
+              <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
+                обекта!</div>
+            </ol>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-header">
+            ПВЦ Изолация
+            <span>+</span>
+          </div>
+          <div class="section-content mt-4">
+            <ol class="flex flex-col gap-4">
+              <li class="flex justify-between">
+                <span></span>
+                <div class="text-primary font-bold">ЦЕНА:</div>
+                <span>от 38.00 до 68.00 лв./м²</span>
               </li>
               <div class="italic">Поради индивидуалността на всеки обект, фирмата може да промени цените след оглед на
                 обекта!</div>

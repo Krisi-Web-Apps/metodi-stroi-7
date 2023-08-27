@@ -1,8 +1,8 @@
 <section>
   <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-2 p-4">
     <li class="text-center">
-      <img src="/assets/services/roof_repairs.jpeg" alt="Ремонт на покриви">
-      <h2 class="text-xl">Ремонт на покриви</h2>
+      <img src="/assets/services/remont_pokriv.jpg" alt="Ремонт на покриви">
+      <h2 class="text-xl">Ремонт на покриви с керемиди</h2>
       <p>
         Екип с дългогодишен опит в Ремонтирането на покриви, високо качество и коректност. Висококачествени материали и
         инструменти. Гарантирана дълготрайност.
@@ -12,14 +12,14 @@
       </div>
     </li>
     <li class="text-center bg-gray-200 p-4">
-      <img src="assets/services/nov_pokriv.webp" alt="Изграждане на нов покрив">
+      <img src="/assets/services/roof_repairs.jpeg" alt="Изграждане на нов покрив">
       <h2 class="text-xl">Изграждане на нов покрив</h2>
       <p>
         Изграждане на дървена конструкция от качествен дървен материал. Поставяне на керемиди, битумни и метални
         керемиди, улуци и водосточни тръби.
       </p>
       <div>
-        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/remont-pokrivi">Повече</a>
+        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/nov-pokriv">Повече</a>
       </div>
     </li>
     <li class="text-center p-4">
@@ -30,7 +30,7 @@
         резултат.
       </p>
       <div>
-        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/remont-pokrivi">Повече</a>
+        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/hydroizolacia">Повече</a>
       </div>
     </li>
     <li class="text-center bg-gray-200 p-4">
@@ -41,7 +41,7 @@
         достъпни места.
       </p>
       <div>
-        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/remont-pokrivi">Повече</a>
+        <a class="py-3 px-6 text-white bg-primary rounded inline-block" href="/uslugi/alpinistki-uslugi">Повече</a>
       </div>
     </li>
   </ul>

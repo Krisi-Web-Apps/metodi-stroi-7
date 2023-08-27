@@ -8,6 +8,11 @@ $page_title = "Видеа";
 <main class="home">
   <?php require "inc/sections/secondary-top-header.php" ?>
 
+  <section class="mt-10">
+    <h2 class="text-4xl text-center">ВИДЕО ГАЛЕРИЯ НАШИ ПРОЕКТИ</h2>
+    <div class="mt-4 header-slogan bg-primary mx-auto w-fit">Изпълнение Качествено И В Срок</div>
+  </section>
+
   <div class="container-md mt-20">
     <iframe width="100%" height="600" src="https://www.youtube.com/embed/MYqoCgblQxA" frameborder="0"
       allowfullscreen></iframe>

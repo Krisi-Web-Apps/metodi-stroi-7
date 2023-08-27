@@ -7,6 +7,11 @@ $page_title = "Галерия";
 
 <main class="home">
   <?php require "inc/sections/secondary-top-header.php" ?>
+
+  <section class="mt-10">
+    <h2 class="text-4xl text-center">ГАЛЕРИЯ НАШИ ПРОЕКТИ</h2>
+    <div class="mt-4 header-slogan bg-primary mx-auto w-fit">Изпълнение Качествено И В Срок</div>
+  </section>
   
   <section class="container-lg max-lg:px-4 mt-20">
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">

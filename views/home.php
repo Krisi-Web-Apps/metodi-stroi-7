@@ -11,20 +11,20 @@ $about_section_header = "Изграждане и ремонт на покрив�
 
   <div class="container-lg">
     <ul class="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
-      <li class="p-5">
-        <img src="https://pokrivi-masters.com/images/pmasters/remont_pokriv.jpg" alt="">
-        <h2 class="text-2xl">Ремонт на покриви</h2>
-        <p>Цени: от <span class="text-6xl">15</span>лв./м.</p>
+      <li class="bg-primary p-5">
+        <img src="/assets/services/remont_pokriv.jpg" alt="">
+        <h2 class="text-2xl">Ремонт на покриви с керемиди</h2>
+        <p>Цени: от <span class="text-6xl">22</span>лв./м.</p>
       </li>
       <li class="bg-primary p-5">
         <img src="https://pokrivi-masters.com/images/pmasters/nov_pokriv.jpg" alt="">
         <h2 class="text-2xl">Изграждане на нов покрив</h2>
-        <p>Цени: от <span class="text-6xl">60</span>лв./м.</p>
+        <p>Цени: от <span class="text-6xl">98</span>лв./м.</p>
       </li>
-      <li class="p-5">
+      <li class="bg-primary p-5">
         <img src="https://pokrivi-masters.com/images/pmasters/hydroizolacia.jpg" alt="">
         <h2 class="text-2xl">Хидроизолация</h2>
-        <p>Цени: от <span class="text-6xl">14</span>лв./м.</p>
+        <p>Цени: от <span class="text-6xl">19.80</span>лв./м.</p>
       </li>
     </ul>
   </div>
@@ -44,28 +44,28 @@ $about_section_header = "Изграждане и ремонт на покрив�
       <h2 class="text-2xl">Ремонт на покриви</h2>
       <p>Екип с дългогодишен опит в Ремонтирането на покриви, високо качество и коректност. Висококачествени материали и
         инструменти. Гарантирана дълготрайност.</p>
-      <button class="text-white bg-primary p-3 px-6">Повече</button>
+      <a href="/uslugi/remont-pokrivi" class="text-white bg-primary p-3 px-6">Повече</a>
     </li>
-    <li class="p-5 bg-gray-200 text-center">
+    <li class="p-5 text-center">
       <i class="fa-solid fa-building-columns text-6xl text-primary"></i>
       <h2 class="text-2xl">Изграждане на нов покрив</h2>
       <p>Изграждане на дървена конструкция от качествен дървен материал. Поставяне на керемиди, битумни и метални
         керемиди, улуци и водосточни тръби.</p>
-      <button class="text-white bg-primary p-3 px-6">Повече</button>
+      <a href="/uslugi/nov-pokriv" class="text-white bg-primary p-3 px-6">Повече</a>
     </li>
     <li class="p-5 text-center">
       <i class="fa-brands fa-soundcloud text-6xl text-primary"></i>
       <h2 class="text-2xl">Хидроизолация</h2>
       <p>Всички видове хидроизолация за Вашия покрив според неговите особености. Висококачествени материали с гарантиран
         резултат.</p>
-      <button class="text-white bg-primary p-3 px-6">Повече</button>
+      <a href="/uslugi/hydroizolacia" class="text-white bg-primary p-3 px-6">Повече</a>
     </li>
-    <li class="p-5 bg-gray-200 text-center">
+    <li class="p-5 text-center">
       <i class="fa-brands fa-twitter text-6xl text-primary"></i>
       <h2 class="text-2xl">Алпинистки услуги</h2>
       <p>Екип от опитни алпинисти извършващи строително-ремонтни дейности по алпийски способ. Ремонти на високи и трудно
         достъпни места.</p>
-      <button class="text-white bg-primary p-3 px-6">Повече</button>
+      <a href="/uslugi/alpinistki-uslugi" class="text-white bg-primary p-3 px-6">Повече</a>
     </li>
   </ul>
 
@@ -92,9 +92,9 @@ $about_section_header = "Изграждане и ремонт на покрив�
     <div class="header-slogan mx-auto bg-primary w-fit rounded">Предлагаме Най-Добрите Цени За Нашите Клиенти</div>
     <ul class="container-lg grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
       <li class="border border-primary text-center pt-10">
-        <h3 class="text-primary text-2xl">РЕМОНТ НА ПОКРИВИ</h3>
+        <h3 class="text-primary text-2xl">РЕМОНТ НА ПОКРИВИ С КЕРЕМИДИ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
-        <p><span class="text-4xl text-primary">15</span> лв./кв.м.</p>
+        <p><span class="text-4xl text-primary">22</span> лв./кв.м.</p>
         <ul>
           <li class="bg-white py-4">Материали</li>
           <hr class="bg-primary" />
@@ -111,7 +111,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
       <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">НОВ ПОКРИВ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
-        <p><span class="text-4xl text-primary">60</span> лв./кв.м.</p>
+        <p><span class="text-4xl text-primary">98</span> лв./кв.м.</p>
         <ul>
           <li class="bg-white py-4">Материали</li>
           <hr class="bg-primary" />
@@ -128,7 +128,7 @@ $about_section_header = "Изграждане и ремонт на покрив�
       <li class="border border-primary text-center pt-10">
         <h3 class="text-primary text-2xl">ХИДРОИЗОЛАЦИЯ</h3>
         <p class="text-center px-4">Тъй като всеки обект е индивидуален, цени започващи от</p>
-        <p><span class="text-4xl text-primary">14</span> лв./кв.м.</p>
+        <p><span class="text-4xl text-primary">19.80</span> лв./кв.м.</p>
         <ul>
           <li class="bg-white py-4">Материали</li>
           <hr class="bg-primary" />
